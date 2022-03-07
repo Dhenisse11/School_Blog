@@ -1,0 +1,92 @@
+.tabs {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  border-radius: 10px;
+}
+
+.tabs .tab-header {
+  background: rgba(65, 149, 218, 0.562);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tabs .tab-header > div:hover {
+  cursor: pointer;
+  color: red;
+  background: rgb(201, 201, 201);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.521);
+  border-radius: 10px;
+  display: block;
+}
+
+.tabs .tab-header > div {
+  position: relative;
+  width: 25%;
+  text-align: center;
+  padding: 10px -50px;
+  z-index: 2;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.tabs .tab-header > div.active {
+  color: red;
+}
+
+.tabs .tab-body {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  background: rgba(224, 176, 212, 0.671);
+  border-top: 1px solid black;
+  height: 60vh;
+  text-align: justify;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tabs .tab-body > div {
+  position: absolute;
+  padding: 0 30px 0 20px;
+  opacity: 0;
+  top: -100%;
+  transform: translateY(-10px);
+}
+
+.tabs .tab-body > div.active {
+  top: 30px;
+  opacity: 1;
+}
+
+.img-market {
+  width: 15rem;
+  height: 10rem;
+  border-radius: 10px;
+}
+
+.img-tabs {
+  text-align: center;
+}
+
+.sub-tabs {
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .tabs .tab-body {
+    height: 90vh;
+  }
+  .tabs .tab-header > div {
+    z-index: 0;
+  }
+}

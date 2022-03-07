@@ -1,0 +1,22 @@
+.slider-imgs {
+  text-align: center;
+}
+
+.slider-img {
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.tittle-slide {
+  text-align: center;
+}
+
+.points {
+  text-align: center;
+}
+
+.paragraph-slide {
+  text-align: center;
+  margin: 0 80px 0 80px;
+}

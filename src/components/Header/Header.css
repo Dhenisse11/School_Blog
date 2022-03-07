@@ -1,0 +1,57 @@
+.header {
+  background: transparent url("/src/assets/fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: -2px 2px 1px black;
+  z-index: 10;
+}
+
+.institutional_logo {
+  width: 260px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #fff;
+}
+
+.tittle_header {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 3px -1px 2px #000;
+}
+
+.author_container {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.author_header {
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+  background: rgba(255, 255, 255, 0.24);
+  text-shadow: 2px -0.5px 3px #fff;
+}
+
+@media screen and (max-width: 400px) {
+  .header > .link_header > .institutional_logo {
+    height: 110px;
+    width: 150px;
+  }
+  .title_header {
+    font-size: 1.5rem;
+  }
+  .author_header {
+    font-size: 0.8rem;
+  }
+}

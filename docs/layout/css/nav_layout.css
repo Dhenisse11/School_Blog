@@ -1,0 +1,24 @@
+.index-bar {
+  flex: 1;
+  padding: 20px 20px 20px 10px;
+}
+
+.themes-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px blue solid;
+  box-shadow: 1px 1px 10px blue;
+  border: 1px solid black;
+}
+
+.index-bar > div {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}
+
+.divisions {
+  border: 1px solid black;
+  padding: 20px;
+}

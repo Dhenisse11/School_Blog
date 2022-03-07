@@ -1,0 +1,53 @@
+_.accordion {
+  max-width: auto;
+}
+
+.accordion .contentBx {
+  position: relative;
+  margin: 10px 200px;
+}
+
+.accordion .contentBx .label {
+  position: relative;
+  padding: 10px;
+  background-color: rgba(65, 149, 218, 0.562);
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 3px 0 3px 0 rgba(0, 0, 0, 0.651);
+  text-align: center;
+}
+
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  padding-bottom: -200px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before {
+  content: "-";
+}
+
+.accordion .contentBx .content {
+  position: relative;
+  background: mintcream;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  border-radius: 10px;
+  background: rgba(224, 176, 212, 0.671);
+}
+
+.accordion .contentBx.active .content {
+  height: auto;
+  padding: 15px;
+}
+
+.label {
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

@@ -1,0 +1,20 @@
+.content {
+  flex: 2;
+  padding: 20px 10px 20px 20px;
+}
+
+.themes {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px blue solid;
+  padding: 20px;
+  margin: 0 100px 20px 100px;
+}
+
+.themes-content {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px blue solid;
+  padding: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+.com-box {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px blue solid;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.com-items {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.com-one {
+  flex: 1;
+  text-align: justify;
+  margin: 10px;
+}
+
+.com-one > h2 {
+  flex: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.com-two {
+  flex: 1;
+  text-align: justify;
+  margin: 10px;
+}
+
+.com-two > h2 {
+  flex: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.com-three {
+  flex: 1;
+  text-align: justify;
+  margin: 10px;
+}
+
+.com-three > h2 {
+  flex: 1;
+  text-align: center;
+  margin: 0 auto;
+}

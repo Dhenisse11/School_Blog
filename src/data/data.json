@@ -1,0 +1,385 @@
+{
+  "data": [
+    {
+      "title": "Programación Orientada a objetos",
+      "themes": [
+        {
+          "titles": "Antecedentes de la POO",
+          "subtitles": [
+            {
+              "title": "Origen.",
+              "paragraph": [
+                "El concepto de Programación Orientada a Objetos tiene su origen en el Simula 67, un lenguaje que fue diseñado inicialmente para hacer simulaciones. Este fue creado por Ole Johan Dahl y Kristen Nygaard directamente en el Centro de Computo noruego, ubicado en Oslo. Ésta idea, surgió con la intención de agrupar las diferentes cualidades o los diferentes tipos de naves en distintas clases de objetos, convirtiendo así a cada clase de objetos en su propio actor, o principal responsable para definir sus propios datos, y así perfeccionar los comportamientos en Smalltalk. Éste último mencionado, fue desarrollado en el lenguaje Simula Xerox Parc, el cual tuvo su primera versión escrita sobre Basic, pero fue diseñado con la intención de ser un sistema totalmente dinámico, donde los objetos se podrían crear y modificar."
+              ]
+            },
+            {
+              "title": "Historia.",
+              "paragraph": [
+                "Inicialmente, Simula se desarrolló como un lenguaje de programación enfocado en la simulación de procesos, con el cual, se podían definir diferentes tipos de actividades. Por esto, la Programación Orientada a Objetos nace en la mitad de los años 60, como un lenguaje de programación Simula, desarrollado por Kristen y Ole-Johan Dahl, creado en el Centro de Computación Noruego (The Norwegian Computing Center). "
+              ]
+            },
+            {
+              "title": "¿Qué es POO?",
+              "paragraph": [
+                "La Programación Orientada a Objetos (POO) de forma concreta, es un paradigma de programación, es decir, un modelo o un estilo de programación, que nos brinda unas guías que nos ayudan a amenizar y a comprender cómo trabajar con él. Este paradigma está basado en el concepto de clases y objetos. Este tipo de programación es utilizado con la funcionalidad de estructurar un programa de software en piezas simples y reutilizables de planos de código, también denominados clases, para instancias individuales de objetos."
+              ]
+            },
+            {
+              "title": "Características principales.",
+              "paragraph": [
+                "En la Programación Orientada a Objetos, se percibe al “objeto” como una entidad que comprende datos y funciones, fundamentalmente, esta es una de las ideas del paradigma. Por ésta razón, la POO maneja un enfoque bastante claro, donde este, permite modelar un dominio, de una manera muy parecida a la realidad. Dependiendo de la situación, los objetos del programa, simulan los objetos del dominio, y los métodos de los objetos permiten modelar perfectamente las acciones que pueden realizar.",
+                "Luego de conocer esto, observaremos, las características de la POO:",
+                "- Objetos, son aquellos que son dinámicos y cumplen con un tiempo de ejecución y las clases son aquellas estáticas y con tiempo de compilación.",
+                "- Los objetos concentran datos mejores conocidos como, las variables de instancia y las funciones también denominadas métodos, realizando de esa manera, una ocultación de la información.",
+                "- Los métodos de los objetos se solicitan mediante mensajes.",
+                "- Dispatch dinámico, sucede cuando una operación es solicitada sobre un objeto, el propio objeto determina qué código se ejecuta. Y así, dos objetos con la misma interfaz pueden tener ejecuciones diferentes.",
+                "- Herencia: en este caso, las clases se pueden delimitar utilizando otras clases como plantillas y cambiando sus métodos o variables de instancia."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "POO como un paradigma",
+          "subtitles": [
+            {
+              "title": "¿Qué es un paradigma?",
+              "paragraph": [
+                "Un paradigma en el área de programación, es considerado, una forma o estilo de programación de software. Ésta, se trata de un conjunto de técnicas sistemáticas que se emplean en todos los niveles del diseño de programas para solucionar problemas respecto a la computación. Existen diversas maneras de diseñar un lenguaje de programación y varias maneras de trabajar para conseguir los resultados que requieren los programadores. En función de esto, los lenguajes de programación adoptan uno o varios paradigmas, que pueden variar en cuanto al tipo de órdenes que permiten realizar, para dar ejemplo, algunos de ellos pueden ser Python o JavaScript, que son lenguajes multi-paradigmas."
+              ]
+            },
+            {
+              "title": "¿Por qué POO se considera un paradigma?",
+              "paragraph": [
+                "La Programación Orientada a Objetos es considerada un paradigma de programación, ya que permite desarrollar aplicaciones complicadas conservando siempre, un código más claro y manejable, a diferencia de otros paradigmas anteriores."
+              ]
+            },
+            {
+              "title": "Abstracción en POO.",
+              "paragraph": [
+                "La abstracción se trata de la interacción existente entre el usuario, únicamente con los atributos y métodos seleccionados de un objeto, usando así, herramientas sencillas de alto nivel para acceder a un objeto complejo.",
+                "El concepto de abstracción facilita el mantenimiento de un código de gran tamaño, debido a que los programas son realmente grandes y se encuentran en constante comunicación, por ello, a lo largo del tiempo pueden surgir diferentes cambios. En función de esto, la abstracción se basa, entonces, en usar cosas simples para representar la complejidad."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "Clases, objetos y métodos de POO",
+          "subtitles": [
+            {
+              "title": "Clases y objetos.",
+              "paragraph": [
+                "¿Cómo se lleva a cabo la creación de programas orientados a objetos? De manera resumida, éste consiste en crear clases y objetos a partir de estas clases. Es decir, las clases constituyen el modelo a partir del cual, se estructuran los datos y los comportamientos. Por esta razón, el primer y más importante concepto de la POO es la distinción entre clases y objetos.",
+                "Las clases son utilizadas para representar sujetos o conceptos. Cada clase es un modelo que define un conjunto de variables o, mejor dicho, el estado, y métodos apropiados para operar con dichos datos, como, el comportamiento. ",
+                "Los objetos, por otra parte, son entidades que tienen un determinado estado, comportamiento o método e identidad. Cada objeto se crea a partir de la clase y se denomina instancia de la clase.",
+                "Elementos de una clase.",
+                "Una clase se compone de diversos elementos, como son:",
+                "- Constructores: Los constructores con considerados métodos especiales, que se ejecutan al momento en el que se crea un objeto de la clase (new). Su misión principal es reservar memoria e inicializar las variables pertenecientes a la clase.",
+                "Es decir, cuando se construye un objeto, es necesario inicializar sus variables con valores coherentes, imaginemos un objeto de la clase Persona cuyo atributo color de pelo al nacer sea verde, un estado incorrecto tras construir el objeto persona. Por esta razón, la solución en los lenguajes orientados a objetos, es utilizar los constructores.",
+                "- Propiedades: Las propiedades de una clase son los datos específicos de dicha clase. Estos están definidos por un nombre, que serían los sustantivos y los atributos, los cuales serían las propiedades que van a poseer, sean sustantivos o adjetivos. Las propiedades deben ser únicas, aunque el mismo nombre de un atributo puede estar en distintas clases. Además, estas definen la estructura de una clase y la de sus objetos.",
+                "La declaración pública, significa que podrá utilizarse en cualquier parte del programa. Y en caso de que suceda, para acceder a un atributo hay que indicarle el nombre del objeto al que pertenece.",
+                "- Métodos: Un método, como elemento de una clase, es considerado una subrutina, cuyo código es definido en una clase, y puede pertenecer tanto a una clase como es el caso de los métodos de clase o estáticos. Los métodos estáticos o de clase, también denominados métodos compartidos, son aquellos que se encuentran asociados a una clase en particular."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "Términos de POO",
+          "subtitles": [
+            {
+              "title": "La modularización.",
+              "paragraph": [
+                "La palabra modularización es proveniente del término módulo, cuya definición textual es: “Elemento con función propia concebido para poder ser agrupado de distintas maneras con otros elementos constituyendo una unidad mayor”. Y modularizar significa fragmentar un problema en partes funcionalmente independientes, que encapsulen operaciones y datos. La modularización, en este sentido, es entonces el proceso por el cual escogemos y agrupamos instrucciones de programación que cumplen una función específica."
+              ]
+            },
+            {
+              "title": "Encapsulación de objetos.",
+              "paragraph": [
+                "La encapsulación de objetos significa, que los datos pertenecen a un objeto, o los espacios de nombres del objeto. Donde, podemos ir más allá y ocultar los datos de un objeto a cualquier otro objeto o código que intente hacer uso de ellos. Serían sólo accesibles al propio objeto y, en algunos casos, a objetos de sus clases descendientes."
+              ]
+            },
+            {
+              "title": "La herencia, jerarquía y composición.",
+              "paragraph": [
+                "Se conoce a la herencia si se dice que una nueva clase es una especialización de una clase existente, que cuenta con unas cosas, más que la clase general, cosas que pueden ser llamados, atributos y métodos; esto quiere decir que la nueva clase o denominada clase hija, hereda todos los atributos y métodos de la clase principal o denominada clase padre, siempre y cuando el nivel de acceso lo permita.",
+                "Se conoce como composición a la acción de pegar objetos de otras clases dentro de una nueva clase. Normalmente se entiende que hay una relación de composición entre clases cuando se cumple la frase “tiene un”.",
+                "En el caso de la jerarquía, este permite crear organizaciones de elementos en distintos niveles. Esta acción suele suceder más a menudo en la vida real y esto se encuentra inherente en cada sistema. Las clases, a su vez, pueden ordenarse y clasificarse en la programación orientada a objetos."
+              ]
+            },
+            {
+              "title": "El polimorfismo.",
+              "paragraph": [
+                "Consiste en el uso de métodos que cuentan con el mismo nombre, en distintas clases dentro de una misma jerarquía, y dependiendo, según el objeto que se ha instanciado. La variable que contiene el objeto y el objeto contenido no son del mismo tipo. El método que es lanzado, se decide en ejecución y no en compilación."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "Importancia y ventajas de POO",
+          "subtitles": [
+            {
+              "title": "Ventajas del uso de POO.",
+              "paragraph": [
+                "Las ventajas más importantes de la programación orientada a objetos son:",
+                "- Reusabilidad: si las clases que hemos diseñado fueron creadas correctamente, se pueden usar en distintas partes del programa y en numerosos proyectos.",
+                "- Mantenibilidad: a raíz de lo sencillo que es abstraer el problema, los programas orientados a objetos son más sencillos de leer y comprender, ya que nos permiten ocultar detalles de implementación dejando visibles sólo aquellos detalles más relevantes.",
+                "- Modificabilidad: La facilidad de añadir, suprimir o modificar nuevos objetos nos permite hacer modificaciones de una forma muy sencilla.",
+                "- Fiabilidad: Al dividir el problema en partes más pequeñas podemos probarlas de manera independiente y aislar mucho más fácilmente los posibles errores que puedan surgir."
+              ]
+            },
+            {
+              "title": "Importancia de POO.",
+              "paragraph": [
+                "La importancia de la Programación Orientada a Objetos es simple y llanamente, el beneficio en la creación de programas de calidad, forzando el mantenimiento, en cuanto a extensión y reutilización de programas. Esta, se encuentra basada en el modo de pensar del hombre y en el modo de trabajar de la máquina; su elemento básico no es solamente la función sino un ente denominado objeto. La POO, además, nos permite trabajar de una manera más organizada, posibilitándonos la reutilización del código y permitiéndonos ampliar y utilizar código desarrollado por terceros. Como resultado, obtenemos un código más limpio, más ordenado y a la larga más fácil de comprender y de desarrollar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Desarrollo web",
+      "themes": [
+        {
+          "titles": "¿Qué es el Desarrollo Web?",
+          "paragraph": [
+            "Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.",
+            "Tradicionalmente, un software departamental o incluso un ambicioso proyecto corporativo de gran envergadura es desarrollado en forma stand alone, es decir, usando lenguajes ya sea compilados (C, C++, Delphi), semi-compilados (.NET, Mono, Java), o interpretados (Python, PHP) para crear tanto la funcionalidad como toda la interfaz de los usuarios, pero cabe perfectamente un desarrollo orientado a web para dichos propósitos, siendo más homogéneo y multiplataforma, y dependiendo de las tecnologías utilizadas, más rápido y robusto tanto para diseñar, implementar y probar, como para su uso una vez terminado.",
+            "Funcionalmente, el desarrollador web, que es quien realiza esta labor, normalmente sólo se preocupa por el funcionamiento del software, es tarea del diseñador web preocuparse del aspecto final (layout) de la página y del webmaster el integrar ambas partes. En ocasiones el webmaster también se encarga de actualizar los contenidos de la página."
+          ]
+        },
+        {
+          "titles": "Ciclo de vida del software",
+          "subtitles": [
+            {
+              "title": "Cada una de las etapas que debe completar un programa desde su concepción hasta su despliegue.",
+              "paragraph": [
+                "El ciclo de vida del desarrollo del software (también conocido como SDLC o Systems Development Life Cycle) contempla las fases necesarias para validar el desarrollo del software y así garantizar que este cumpla los requisitos para la aplicación y verificación de los procedimientos de desarrollo, asegurándose de que los métodos usados son apropiados.",
+                "Su origen radica en que es muy costoso rectificar los posibles errores que se detectan tarde en la fase de implementación. Utilizando metodologías apropiadas, se podría detectar a tiempo para que los programadores puedan centrarse en la calidad del software, cumpliendo los plazos y los costes asociados.",
+                "El proceso de desarrollo (o ciclo de vida del software), que a priori podría parecer una tarea simple, consta de una serie de pasos de cumplimiento obligatorio que buscan garantizar que los programas creados son eficientes, fiables, seguros y responden a las necesidades de los usuarios finales."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "Etapas de un programa.",
+          "paragraph": [
+            "La metodología para el desarrollo de software es un modo sistemático de realizar, gestionar y administrar un proyecto para llevarlo a cabo con grandes posibilidades de éxito. Esta sistematización indica cómo se divide un proyecto en módulos más pequeños para normalizar cómo se administra el mismo.",
+            "De esta forma, las etapas del desarrollo de software son las siguientes:",
+            "- Planificación: Antes de empezar un proyecto de desarrollo de un sistema de información, es necesario hacer ciertas tareas que influirán decisivamente en el éxito del mismo. Dichas tareas son conocidas como el fuzzy front-end del proyecto, puesto que no están sujetas a plazos. Algunas de las tareas de esta fase incluyen actividades como la determinación del ámbito del proyecto, la realización de un estudio de viabilidad, el análisis de los riesgos asociados, la estimación del coste del proyecto, su planificación temporal y la asignación de recursos a las diferentes etapas del proyecto.",
+            "- Análisis: Por supuesto, hay que averiguar qué es exactamente lo que tiene que hacer el software. Por eso, la etapa de análisis en el ciclo de vida del software corresponde al proceso a través del cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema (las características que el sistema debe poseer).",
+            "- Diseño: En esta fase se estudian posibles opciones de implementación para el software que hay que construir, así como decidir la estructura principal del mismo. El diseño es una etapa compleja y su proceso debe realizarse de manera iterativa.",
+            "Es posible que la solución inicial sea poco adecuada, por lo que en tal caso hay que refinarla. Por esta razón, hay catálogos de patrones de diseño muy útiles que recogen errores que otros han cometido para evitar caer en la misma trampa.",
+            "- Implementación: En esta fase hay que elegir las herramientas adecuadas, un entorno de desarrollo que facilite el trabajo y un lenguaje de programación apropiado para el tipo de software a construir. Esta elección dependerá tanto de las decisiones de diseño tomadas como del entorno en el que el software deba funcionar.",
+            "- Pruebas: Como errar es de humanos, la fase de pruebas del ciclo de vida del software busca detectar los fallos cometidos en las etapas anteriores para corregirlos. Por supuesto, lo ideal es hacerlo antes de que el usuario final se los encuentre. Se dice que una prueba es un éxito si se detecta algún error.",
+            "- Instalación o despliegue: La siguiente fase es poner el software en funcionamiento, por lo que hay que planificar el entorno teniendo en cuenta las dependencias existentes entre los diferentes componentes del mismo.",
+            "Es posible que haya componentes que funcionen correctamente por separado, pero que al combinarlos provoquen problemas. Por ello, hay que usar combinaciones conocidas que eviten causar problemas de compatibilidad.",
+            "- Uso y mantenimiento: Esta es una de las fases más importantes del ciclo de vida de desarrollo del software. Puesto que el software ni se rompe ni se desgasta con el uso. Aunque suene contradictorio, cuanto mejor es el software más tiempo hay que invertir en su mantenimiento. La principal razón es que se usará más (incluso de formas que jamás se habían previsto) y, por ende, habrá más propuestas de mejoras."
+          ]
+        },
+        {
+          "titles": "Desarrollo de aplicaciones web",
+          "paragraph": [
+            "Las aplicaciones web son programas informáticos que se ejecutan en un servidor web, al que los usuarios acceden a través de internet, utilizando un navegador. Todos los datos con los que trabaja están almacenados en la web y son procesados en la misma, por lo que, a diferencia de las aplicaciones de escritorio, no necesitan instalarse en el ordenador, pero sí precisan de conexión a la red.",
+            "El desarrollo de aplicaciones web es una solución habitual que se ha implementado durante los últimos años, debido a las distintas posibilidades que ofrecen de accesibilidad y compatibilidad, además de que demandan un precio y tiempo menor para su creación y mantenimiento. Sin embargo, una vez que hemos optado por desarrollar una, resulta conveniente conocer los distintos tipos de desarrollo de aplicaciones web que existen para escoger el que mejor se adapte a nuestras necesidades."
+          ],
+          "subtitles": [
+            {
+              "title": "Conceptos básicos.",
+              "paragraph": [
+                "Se deben tener en cuenta algunos conceptos básicos antes de iniciar con el desarrollo web:",
+                "- Sitio web: Contempla la página principal y sus otras páginas, gráficos, documentos, multimedia y otros archivos asociados que se almacenan en un servidor web o en el disco duro de un equipo.",
+                "- HTML: Por sus siglas “HTML” se denomina como Lenguaje de Marcado de Hipertexto, se considera el lenguaje estándar de marcas empleado para documentos del World Wide Web.",
+                "- Editor: Programa utilizado para crear páginas web sin la necesidad de tener que aprender el lenguaje.",
+                "- Servidor: Máquina conectada a Internet que -entre otros servicios- ofrece albergue para páginas web haciendo que estén accesibles desde cualquier punto de Internet.",
+                "- Cliente FTP: Programa que permite conectarse al servidor para publicar páginas web.",
+                "- Dominio: Dirección web asociada a una página web.",
+                "- ISP: En el ámbito del desarrollo de sitios web, se puede decir que un ISP es un proveedor de servicios para web.",
+                "- URL: Cadena que proporciona la dirección de Internet de un sitio Web o un recurso del World Wide Web, junto con el protocolo mediante el cual se tiene acceso al sitio o al recurso.",
+                "- Hosting: Espacio de disco donde se almacenan las páginas webs para que sean accesibles a través de Internet.",
+                "- Banner: Elemento gráfico con forma rectangular, normalmente animado, cuyo contenido es publicidad.",
+                "- Frames: Áreas rectangulares que subdividen las ventanas de algunas páginas Web, cada una de las cuales contiene un documento de hipertexto independiente de los demás.",
+                "- Imagen: Archivo gráfico que se puede insertar en una página Web y mostrar en un explorador de Web. Existen diferentes formatos: GIF, JPEG, BMP, TIFF, WMF y PNG, entre otros."
+              ]
+            },
+            {
+              "title": "Arquitectura.",
+              "paragraph": [
+                "Las aplicaciones Web están basadas en el modelo Cliente/Servidor que gestionan servidores web, y que utilizan como interfaz páginas web. Una aplicación Web es proporcionada por un servidor Web y utilizada por usuarios que se conectan desde cualquier punto vía web (browsers o navegadores). La arquitectura de un Sitio Web tiene tres componentes principales:",
+                "- Un servidor Web.",
+                "- Una conexión de red.",
+                "- Uno o más clientes.",
+                "El servidor Web distribuye páginas de información formateada a los clientes que las solicitan. Los requerimientos son hechos a través de una conexión de red, y para ello se usa el protocolo HTTP. Una vez que se solicita esta petición mediante el protocolo HTTP y la recibe el servidor web, éste localiza la página web en su sistema de archivos y la envía de vuelta al navegador que la solicitó."
+              ]
+            },
+            {
+              "title": "Técnicas utilizadas.",
+              "paragraph": [
+                "- Desarrollo front-end.",
+                "Dentro de la utilización de Frameworks JavaScript, siguen siendo Angular y React los que más se utilizan por los distintos desarrolladores de páginas web, por lo que se cree que esta tendencia seguirá estando vigente para este año.",
+                "- Desarrollo back-end.",
+                "En este sentido se espera que siga siendo WordPress una de las opciones escogidas por aquellos usuarios que quieran crear o hacer desarrollo web de una manera mucho más efectiva. Sin embargo, como reacción a esto, ha surgido la presencia de sitios estáticos en la que la seguridad y el rendimiento son de las primeras características a visualizar, sin requerir bases de datos o grandes programaciones.",
+                "- Desarrollo Híbrido o CrossPlatform.",
+                "En la actualidad, el desarrollo de páginas web viene acompañado también por el desarrollo de grandes aplicaciones que cuentan con tecnologías de alto nivel. Estas pueden ser desarrolladas a través de Frameworks CrossPlatform, como React Native, Native Script o Flutter. Esto se espera siga en aumento para este 2021, donde se pueda llegar a través de los dispositivos móviles a muchas más personas.",
+                "- Consolidación de tendencias de desarrollo web más innovadoras.",
+                "Dentro de esta técnica, se espera que la Inteligencia Artificial o IA logre su expansión para el 2021, todo esto con la capacidad de cómputo del Cloud y el desarrollo de las distintas plataformas que son pensadas para machine learning. Esta es una tendencia que pudimos observar en el 2020 y que claramente va a seguir marcando una presencia importante para este 2021."
+              ]
+            },
+            {
+              "title": "Flujo de trabajo.",
+              "paragraph": [
+                "El desarrollo de un proyecto web pasa por diferentes estados hasta su publicación, por lo que es necesario establecer un flujo de trabajo que organice las diferentes etapas, minimice los errores y mantenga siempre el foco en el aspecto, funcionalidades y experiencia de uso de nuestra aplicación y sitio web. A continuación, te mostramos el flujo de trabajo más habitual (o, al menos, recomendado) que podemos utilizar y que nos permitirá gestionar con éxito nuestros proyectos web.",
+                "- Boceto.",
+                "El boceto o bosquejo es el esqueleto del diseño de la app o página web. Es el primer paso y tiene el objetivo de distribuir el espacio, la ubicación de contenidos y las funcionalidades que vamos desarrollar. Ni se incluye color ni estilo o gráficos; sólo una representación de líneas y vértices.",
+                "- Wireframe.",
+                "Con la herramienta adecuada y desde un ordenador, distribuiremos las pantallas con las que contará la aplicación. Lo haremos a través de dibujos simples, anotaciones y flechas. De esta forma, tendremos de manera esquemática toda la estructura que mostrará. El wireframe debe de estar libre de todo componente estético. Sólo tendremos un esquema que deberá ofrecer exclusivamente la información sobre la usabilidad del proyecto. Tampoco es necesario en esta fase utilizar imágenes, logos o colores: nuestro principal objetivo es centrar nuestros recursos en el uso que tendrá el programa.",
+                "- Mockup.",
+                "El mockup es un prototipo que proporciona, al menos, una parte de la funcionalidad de un sistema y permite realizar pruebas del diseño más elaboradas, ya que es la evolución o lo que le sigue al wireframe e incorpora aspectos estéticos. En esta parte, podremos ver con qué colores contará, las imágenes que utilizaremos, los logotipos, etc. Es decir, es parecido al paso anterior pero el esquema ya ni es tan simple, sino que se acerca a la apariencia y aspecto final de la aplicación.",
+                "- Prototipado.",
+                "Con el prototipo creado podremos trastear con diferentes interfaces y presentar pantallas de la aplicación. Aquí ni tenemos que incluir ninguna línea de código porque utilizamos programas como Marvel App o Invision App, que se encargan a golpe de clic de insertar eventos sencillos, como áreas calientes que nos llevarán a las diferentes pantallas que componen nuestro programa. De este modo, conseguiremos una visión muy realística de lo que llegará a ser la aplicación final y ahorraremos muchas horas de desarrollo."
+              ]
+            },
+            {
+              "title": "Roles implicados.",
+              "paragraph": [
+                "- Diseñador UI/UX.",
+                "UX (user experience) es una disciplina se encarga de que el sitio sea usable y que la experiencia del usuario sea agradable. Una tarea importante en este rol es el flujo de usuario, que es la cantidad de pasos que debe seguir para realizar una tarea.",
+                "- Web Designer O Maquetador.",
+                "Se encarga de recoger los mockups que ha diseñado el UI y llevarlos a código html y css, tal vez tenga que usar javascript para algún efecto que jamás pueda lograrse con css, por lo que es recomendable que el Web Designer sepa un poco de javascript. Esta persona se encarga de llevar el diseño a código, pero ni está orientado a la interacción o la lógica del lado del cliente.",
+                "- Frontend Developer o Programador Frontend.",
+                "Se encarga de desarrollar toda la lógica del lado del cliente. Aunque usualmente el Frontend deja para el web Designer los colores, tipografías márgenes, etc. Muchas veces también cumple con este rol, como se menciona antes, depende mucho del presupuesto.",
+                "- Backend Developer o Programador Backend.",
+                "Hace toda la lógica del lado del servidor, toda la seguridad está en esta parte; si tú haces seguridad en el lado del cliente, una persona con relativos conocimientos de programación podría modificar esa validación desde el inspector del navegador, por eso también se agrega validación del lado del servidor y es muchísimo más segura. El programador Backend también se encarga de comunicarse con las bases de datos, para recuperar la información que luego se le enviará al Frontend.",
+                "- DBA (Database Administrator).",
+                "Se encarga de Diseñar las bases datos, que son grandes almacenes de información. En una aplicación la data es fundamental porque a partir de los datos se toman las decisiones, y una base de datos bien diseñada permite que un proyecto sea escalable, por eso el DBA diseña la base de datos (incluso en lápiz y papel) antes de ponerse a escribir código.",
+                "- Arquitecto Cloud.",
+                "Analiza el proyecto para definir los requerimientos de hardware e infraestructura que se van a necesitar para que este pueda funcionar en producción, por ejemplo: Un proyecto que va a tener 10 usuarios al día ni siquiera requiere mucha máquina, pero en un proyecto gigante él arquitecto sabrá qué requerimientos necesita (base de datos, almacenamiento, balanceamiento de carga, certificados ssl, entre otros), él arquitecto cloud diseña e implementa toda la infraestructura en cloud y luego se encarga de mandar el proyecto a producción.",
+                "- QA (Quality Assurance o Control de Calidad).",
+                "Se encarga de hacer las pruebas necesarias durante el desarrollo del proyecto para asegurarse del control de calidad, documenta todos los procesos para que en el futuro las cosas mejoren y los errores que ocurrieron jamás se vuelvan a repetir. Un tester solamente prueba si algo falla y lo reporta, en cambio un QA también ve qué cosas podrían mejorarse (Aunque ni siquiera estén fallando)."
+              ]
+            },
+            {
+              "title": "Tendencias.",
+              "paragraph": [
+                "Se presentarán a continuación las tendencias previstas para este 2021:",
+                "- Las PWAs (Progressive Web Apps).",
+                "Las PWAs (Progressive Web Apps) están recibiendo más atención en el mercado porque se basan en lo mejor de varias tecnologías. Por un lado, recogen lo mejor de la web y por otro, lo mejor de apps nativas. Podríamos decir que este tipo de páginas webs están reduciendo la brecha entre las aplicaciones móviles nativas y las webs.",
+                "- Interfaces oscuras.",
+                "Hemos visto esta tendencia en las aplicaciones móviles, pero ahora los sitios web también se están moviendo hacia ella. Las interfaces de usuario de temática nocturna u oscura son más seguras y fáciles para los ojos. No solamente se encarga de reducir la fatiga visual excesiva, sino que también facilita la visualización del contenido de luz al mejorar la visibilidad y ahorra tiempo de batería; aumentar el número de píxeles negros consume menos energía del dispositivo. Además, le da a todo el sitio web un toque de estilo y proporciona la mejor experiencia de usuario.",
+                "- AI-Powered Chatbots.",
+                "La demanda de comunicaciones impulsadas por IA (Inteligencia Artificial) aumentará en 2021. Los sitios web se centrarán más en crear chatbots y asistentes virtuales impulsados por IA para mejorar la experiencia del cliente.",
+                "- Sitios Web de una sola página.",
+                "Esta tendencia se vio en gran medida en el año 2020. Pero 2021 no será diferente, ya que esta tendencia continúa. Atrás quedaron los días de construir estructuras web largas y extensas. Dado que las personas utilizan Internet a través de dispositivos móviles, los sitios web de una sola página son mucho más fáciles de navegar. Las viejas formas de crear páginas separadas para diferentes temas se están volviendo obsoletas.",
+                "- Tecnología de reconocimiento de voz.",
+                "El Internet de las cosas (IoT) ha tenido mucha importancia desde hace algún tiempo. En 2021 podemos ver o esperar mejoras en la búsqueda por voz. Según estudios, se estima que aprox. 8 mil millones de asistentes de voz estarán en uso para el año 2023.",
+                "- Nuevos sistemas de seguridad.",
+                "Según algunos estudios, casi 50.000 sitios web son hackeados todos los días. Esta situación es preocupante por la información confidencial de los usuarios que albergan las bases de datos de los websites. Por ello se espera que el 2021 sea el año en el que se implementarán estrictos protocolos de seguridad de sitios web.",
+                "- Computación en la nube.",
+                "El Cloud Computing ha sido una tendencia y lo seguirá siendo por mucho tiempo. Según Gartner, se espera que los servicios de nube pública crezcan a $ 306,9 mil millones para 2021. Por lo tanto, también puede esperar avances en la computación en nube en 2021."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "Metodologías de trabajo utilizadas para el desarrollo de aplicaciones web",
+          "paragraph": [
+            "El desarrollo de aplicaciones web es un ámbito que ha incrementado en los últimos años, la necesidad de las empresas por aumentar ventas, gestionar de manera ordenadas los registros, y sobre todo superar la competitividad del mercado, ha ocasionado que migren de los sistemas de información tradicionales, como son las aplicaciones de escritorio, a sistemas de información basadas en la web, empleando comúnmente páginas o aplicaciones web. Al momento de implementar una aplicación web, el programador o equipo de desarrollo suele tener ciertas dudas, ¿cómo diseño la página web?, ¿el proceso que estoy realizando, generará una aplicación de calidad?, ¿la aplicación realizada cumplirá las expectativas del cliente?, ¿cuántos es el tiempo de desarrollo y costo adecuado para esta aplicación? Varias de estas interrogantes son comunes en equipos con y sin experiencia.",
+            "Para lograr resolver algunas de las interrogantes los jefes de proyecto hacen uso de metodologías de desarrollo, las cuales deben abarcar desde las etapas de análisis hasta la etapa de cierre del proceso de desarrollo de un software. Estos son procesos que permiten estructurar comunicar, entender, simplificar y formalizar tanto el dominio como las decisiones de diseño, así como disponer de documentación detallada para posibles cambios del software. Estos, son procesos que permiten estructurar comunicar, entender, simplificar y formalizar tanto el dominio como las decisiones de diseño, así como disponer de documentación detallada para posibles cambios del software. Acá se presentarán las diferentes metodologías utilizadas para el desarrollo web de aplicaciones."
+          ],
+          "subtitles": [
+            {
+              "title": "Tipos.",
+              "paragraph": [
+                "- Metodología o Modelo Cascada.",
+                "Es un proceso secuencial, de fácil desarrollo, en el que los pasos de desarrollo son vistos hacia abajo (como en una cascada de agua) a través de las fases de análisis de las necesidades, el diseño, implantación, pruebas (validación), la integración, y mantenimiento. La primera descripción formal del modelo de cascada se cita a menudo a un artículo publicado por Winston Royce W. en 1970, aunque Royce no utiliza el término cascada en este artículo.",
+                "La filosofía básica del modelo de cascada es la siguiente: “el proyecto está dividido en fases secuenciales, con cierta superposición y splashback aceptable entre fases”. Además, se hace hincapié en la planificación, los horarios, fechas, presupuestos y ejecución de todo un sistema de una sola vez. A su vez, Un estricto control se mantiene durante la vida del proyecto a través de la utilización de una amplia documentación escrita, así como a través de comentarios y aprobación / signoff hechas por el usuario y la gestión del área TI al final de la mayoría de las fases y antes de comenzar la próxima fase.",
+                "- Metodología o modelo de prototipo.",
+                "Pertenece a los modelos evolutivos, en el cual el prototipo debe de ser construido rápidamente y con la utilización escasa de recursos. El prototipo es construido para mostrárselo al cliente, obtener críticas y retroalimentación, con lo cual se obtendrán los requisitos específicos para la aplicación a partir de las metas graficas que son mostradas.",
+                "- Metodología o modelo en espiral.",
+                "Es el modelo en el cual las actividades se desarrollan en espiral, estas actividades se realizan conforme se van seleccionando de acuerdo al análisis de riesgo. En cada iteración en este modelo, se deberán de tomar en cuenta los objetivos, las alternativas que se deberán de tomar de acuerdo a las características, estas son: experiencia personal, requisitos a cumplir, las formas de gestión del sistema, entre otros. Este modelo tiene dos formas en las cuales se debe de planificar el proyecto, la forma angular, la cual indica únicamente el avance del software dentro del proyecto y la forma radial, la cual indica el aumento del costo dado que cada iteración conlleva más tiempo de desarrollo.",
+                "- Metodología o desarrollo iterativo y creciente.",
+                "Resuelve los problemas encontrados en el modelo en cascada, en cual ofrece entornos de trabajo con técnicas para su correcta utilización. Este tipo de modelo es esencial para el método de programación extrema. Este tipo de programación consiste en la realización de programas de manera incremental, la cual sirve para obtener ventaja de lo que se ha realizado a lo largo del proyecto. En este se entran a varias iteraciones con las cuales se obtendrá el software final y a su vez, se le agregaran nuevas funcionalidades a cada etapa.",
+                "- Metodología RUP o proceso unificado relacional.",
+                "Es propiedad de IBM desarrollado por la empresa Rational Software, es conocido como RUP y llamado Proceso Unificado Racional, por el nombre de la empresa. Es uno de los modelos más utilizado en el análisis, diseño e implementación de la documentación de sistemas orientados a objetos. Los principios básicos de este método son: adaptar el proceso, equilibrar prioridades, demostrar valor iterativamente, colaboración entre equipos, elevar el nivel de abstracción y enfocarse a la calidad.",
+                "Los modelos de desarrollo de software ofrecen un marco de trabajo usado para controlar el proceso de desarrollo de sistemas de información, estos marcos de trabajo consisten en una filosofía de desarrollo de programas la cual debe de contar con las herramientas necesarias para la asistencia del proceso de desarrollo."
+              ]
+            },
+            {
+              "title": "Herramientas utilizadas.",
+              "paragraph": [
+                "El modelado de software es el primer paso antes de desarrollar cualquier tipo de sistema. Normalmente el modelado se basa en la creación de Diagramas que explican el funcionamiento del software a desarrollar, eso hablando de algún ejemplo básico. Regularmente se utilizan los diagramas UML, los cuales permiten que, mediante un diseño abstracto, los desarrolladores y el cliente definan el sistema, su funcionamiento y sus funcionalidades. Existen muchas herramientas existentes dentro de las herramientas UML estos pueden ser: diagramas de casos de uso, carta estructurada, diagrama entidad-relación, diagrama de clases, entre muchos otros."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Desarrollo front-end",
+      "themes": [
+        {
+          "titles": "Origen e historia",
+          "subtitles": [
+            {
+              "title": "Origen",
+              "paragraph": [
+                "Está orientado a lenguaje de marcas y al lenguaje de programación web de ejecución en equipos clientes, sin necesidad de uso de servidores externos. Casi todo lo que ves en la pantalla cuando accedes a una web es desarrollo frontend, la estructuración de los apartados, tamaños, márgenes entre estructuras, tipos de letra, colores, adaptación para distintas pantallas, los efectos de ratón, teclado, movimientos, desplazamientos, efectos visuales, entre otros. Esto sería la base origen en la que se centra la especialidad frontend, dar formato a contenidos, desarrollo del aspecto de la web y manipular resultados de datos obtenidos.",
+                "La programación frontend, como origen, siempre va a estar orientada a crear interfaces web, crear aplicaciones de interfaz sin ir más allá de lo que significa la programación interna (desarrollo backend)."
+              ]
+            },
+            {
+              "title": "Historia",
+              "paragraph": [
+                "Front-end, conocido al español y latino como “frontend” y traducido, algo como, frente o fachada final. Es una especialidad para el desarrollo web, que permite al usuario interactuar con nuestra web, mientras se trabaja la interfaz. ",
+                "El desarrollo front-end está orientado al lenguaje de marcas y al lenguaje de programación web de ejecución en equipos clientes, sin necesidad de utilizar servidores externos. Es decir, casi todo lo que se ve en pantalla cuando se accede a una web, es denominado desarrollo frontend, entre esto podemos observar: la estructuración de los apartados, tamaños, márgenes entre estructuras, tipos de letra, colores, adaptación para distintas pantallas, los efectos de ratón, teclado, movimientos, desplazamientos, efectos visuales, entre otros. Esto en sí, sería la base origen en la que se centra la especialidad frontend, dar formato a contenidos, desarrollar el aspecto de la web y manipular resultados de datos obtenidos."
+              ]
+            },
+            {
+              "title": "¿Qué es el Desarrollo Front-end?",
+              "paragraph": [
+                "Front-end, conocido al español y latino como “frontend” y en su traducción algo así como frente o fachada final. Es una especialidad para el desarrollo web, que trabaja la interfaz web y hace que el usuario pueda interactuar con nuestra web.",
+                "En otras palabras, es aquel desarrollo que trabaja del lado Cliente, en el navegador, en el lado de lo que se ve. Principalmente se ocupa de los componentes externos del sitio web o de la aplicación web."
+              ]
+            },
+            {
+              "title": "Desarrollo Front-End en la actualidad",
+              "paragraph": [
+                "Actualmente, los conocimientos necesarios para dedicarse al desarrollo front-end son más exigentes de lo que solía ser hace unos cuantos años, y no digamos hace una década. Los mínimos son más altos, las tecnologías más complicadas y hay más partes en movimiento a las que debes estar atento. A cambio de ello lo que tenemos son mejores profesionales, más preparados y con más calidad en su trabajo. Requiere más tiempo y más estudio, pero nada que una persona con ganas y vocación no pueda aprender en unos pocos meses de estudio bien enfocado.",
+                "Las tecnologías y herramientas que mencionadas son las que se consideran, se deberían conocer como mínimo, de manera muy recomendada y si se quiere destacar. Más allá del framework de moda o la última cosa brillante tras la que va todo el mundo, lo más importante es dominar bien los fundamentos, yendo más allá de aprender recetas. Si dominas eso, los cambios, las novedades y las modas no te afectarán, porque siempre estarás en disposición de ponerte al día en ellas cuando lo necesites."
+              ]
+            }
+          ]
+        },
+        {
+          "titles": "Lenguajes utilizados",
+          "paragraph": [
+            "A continuación, se presentan los lenguajes utilizados en el desarrollo profesional.",
+            "- HTML.",
+            "Conocido como HyperText Markup Language, es un lenguaje de marcado, que funciona a base de etiquetas para la estructuración y organización del contenido de la web.",
+            "- CSS.",
+            "Conocido como Cascading Style Sheets, son hojas de estilos en cascada, encargadas de dar formato al contenido.",
+            "JavaScript",
+            "Es conocido como un lenguaje de programación muy potente, orientado a objeto, que desde hace muchos años es usado para el desarrollo de aplicaciones web. Hoy día, y cara al futuro, es uno de los lenguajes que más se están extendiendo y evolucionando en el ámbito del desarrollo web y del desarrollo móvil, con la principal característica, de ser interpretado en el equipo cliente y en cualquier navegador web, permitiendo interactuar fácilmente con HTML y CSS entre otros.",
+            "WebAssembly",
+            "Es un lenguaje soportado por los navegadores más conocidos, y la única alternativa a JavaScript para poder ejecutar código en navegadores web (sin la ayuda de complementos, como Flash, Java o Silverlight; todos ellos depreciados, ya que los navegadores están dejando de dar soporte a los complementos). En general, los programadores no codifican en WebAssembly directamente, sino que utilizan lenguajes como Rust, C, C++, o en teoría cualquier lenguaje que pueda compilarlo."
+          ]
+        }
+      ]
+    },
+    {
+      "themes": [
+        {
+          "titles": "Tabla de contenido"
+        },
+        {
+          "titles": "Introducción al desarrollo web"
+        },
+        {
+          "titles": "Referencias bibliográficas"
+        },
+        {
+          "titles": "Comentarios"
+        }
+      ]
+    }
+  ]
+}

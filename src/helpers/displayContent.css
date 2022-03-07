@@ -1,0 +1,49 @@
+.paragraph {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.titles {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.titleh {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.titlesh {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.paragraphs,
+.titleh,
+.titlesh {
+  background-color: white;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px blue solid;
+  padding: 20px;
+  margin: 0 100px 20px 100px;
+}
+
+@media screen and (max-width: 750px) {
+  .paragraphs,
+  .titleh,
+  .titlesh,
+  title,
+  .titles {
+    margin: 0 20px 10px 20px;
+  }
+}
